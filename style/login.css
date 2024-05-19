@@ -1,0 +1,40 @@
+body, h1, p, a, button, .navbar-brand, .nav-link {
+    font-family: 'Roboto', sans-serif;
+  }
+body{
+    background-image: url('/aset/login.jpg');
+  }
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+  }
+  .login-form img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  .toggle-password {
+    cursor: pointer;
+  }
+  .btn-purple {
+    background-color: #7E22CE;
+    color: white;
+    border-color: #7E22CE;
+  }
+  .btn-purple:hover {
+    background-color: #6f42c1 ;
+    border-color: #6f42c1 ;
+  }
+  
+  .text-silver {
+    color: silver;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara chiken</title>
+    <link rel="icon" href="/aset/logo.png" type="image">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, h1, p, a, button, .navbar-brand, .nav-link {
+            font-family: 'Roboto', sans-serif;
+          }
+        body{
+            background-image: url('/aset/ulasan.jpg');
+          }
+          .form-control-blue {
+            background-color: #DAEBFF;
+            color: white;
+        }
+        .form-control-blue::placeholder {
+            color: #000000;
+        }
+        
+    </style>
+</head>
+<body>
+    <custom-navbar class="pb-5"></custom-navbar>
+    <div class="mt-5 mb-5"></div>
+    <div class="container pt-5">
+        <h1 class="text-center mb-4"><b class="text-white">Please share your opinion about us</b></h1>
+        <div class="p-5" style="background-color: #DAEBFF;">
+            <div class="p-5 rounded" style="background-color: #ffffff;">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama</label>
+                        <input type="text" class="form-control form-control-blue" id="name" placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Alamat</label>
+                        <input type="text" class="form-control form-control-blue" id="address" placeholder="Masukkan alamat Anda">
+                    </div>
+                    <div class="mb-3">
+                        <label for="review" class="form-label">Ulasan</label>
+                        <textarea class="form-control form-control-blue" id="review" rows="3" placeholder="Masukkan ulasan Anda"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger w-100"><b class="text-white">SEND REVIEW</b></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <custom-footer></custom-footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Components/navbar.js"></script>
+    <script src="../Components/footer.js"></script>
+</body>
+</html>

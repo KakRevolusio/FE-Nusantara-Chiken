@@ -1,0 +1,29 @@
+body, h1, p, a, button, .navbar-brand, .nav-link {
+    font-family: 'Roboto', sans-serif;
+  }
+  .blur-background {
+    position: relative;
+    background: url('/aset/2.jpg') no-repeat center center/cover;
+    min-height: 300px;
+  }
+  .blur-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .btn-custom {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+  .no-underline {
+    text-decoration: none;
+  }

@@ -1,0 +1,62 @@
+
+
+body, h1, p, a, button, .navbar-brand, .nav-link {
+    font-family: 'Roboto', sans-serif;
+  }
+  .no-underline {
+    text-decoration: none;
+}
+.section {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .section-1 {
+    background-image: url('/aset/1.jpg');
+  }
+  .section-2 {
+    background-image: url('/aset/2.jpg');
+  }
+  .section-3 {
+    background-image: url('/aset/3.jpg');
+  }
+  .color3 {
+    background-color: #DBEAFE;
+    display: flex;
+    
+    margin-top: 150px;
+  }
+  .text-section-3 {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    padding: 20px; 
+    z-index: 1; 
+}
+.section-3-btn{
+    position: absolute; 
+    top: 0; 
+    right: 0;
+    padding: 20px; 
+    z-index: 1; 
+}
+
+.inner-container {
+    position: relative; 
+    z-index: 0; 
+}
+  .section-4 {
+    background-image: url('/aset/4.jpg');
+  }
+  .card-4{
+    background-color: #4C1D95;
+  }
+  .section-5 {
+    background-image: url('/aset/5.jpg');
+  }
+
+
+
